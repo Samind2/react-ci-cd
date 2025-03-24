@@ -4,7 +4,7 @@ const Card = () => {
  return (
   <div className="flex justify-center space-x-6 mt-8">
    {/* Vaccine Management */}
-   <div className="relative bg-purple-500 text-white p-6 rounded-lg shadow-md w-64 text-center group overflow-hidden">
+   <div className="relative bg-pink-500 text-white p-6 rounded-lg shadow-md w-64 text-center group overflow-hidden">
     <h2 className="text-xl font-bold">วัคซีน</h2>
     <div className="flex justify-center space-x-3 my-3">
      <img src="Develop.png"alt="Vaccine Icon" className="h-16" />
@@ -17,7 +17,7 @@ const Card = () => {
    </div>
 
    {/* Develop Management */}
-   <div className="relative bg-pink-500 text-white p-6 rounded-lg shadow-md w-64 text-center group group overflow-hidden">
+   <div className="relative bg-green-500 text-white p-6 rounded-lg shadow-md w-64 text-center group group overflow-hidden">
     <h2 className="text-xl font-bold">พัฒนาการ</h2>
     <div className="flex justify-center space-x-3 my-3">
      <img src="Parrent1.png" alt="Develop Icon" className="h-16" />
